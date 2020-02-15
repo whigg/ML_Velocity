@@ -1,13 +1,14 @@
 name: ml_velocity
 channels:
   - default
-  - conda-forge
 dependencies:
   - matplotlib
   - pandas
-  - sklearn
+  - scikit-learn
   - geopandas
   - cartopy
+  - jupyterlab
+  - seaborn
   - pip
   - pip:
     - matplotlib-scalebar
